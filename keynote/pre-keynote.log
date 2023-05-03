@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.4.5)  26 APR 2023 16:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.4.5)  26 APR 2023 16:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1080,20 +1080,22 @@ Dictionary: translator-theorem-dictionary, Language: English
 
 ] [3
 
+] [4
+
 ]
-<data/sozio.png, id=124, 575.14874pt x 307.1475pt>
+<data/sozio.png, id=150, 575.14874pt x 307.1475pt>
 File: data/sozio.png Graphic file (type png)
 <use data/sozio.png>
-Package pdftex.def Info: data/sozio.png  used on input line 57.
+Package pdftex.def Info: data/sozio.png  used on input line 65.
 (pdftex.def)             Requested size: 287.57367pt x 153.57336pt.
- [4
+ [5
 
- <./data/sozio.png>] [5
-
-] [6
+ <./data/sozio.png>] [6
 
 ]
 [7
+
+] [8
 
 ]
 \tf@nav=\write6
@@ -1110,8 +1112,8 @@ Package rerunfilecheck Info: File `pre-keynote.out' has not changed.
 (rerunfilecheck)             Checksum: F3AE5C2D1CFFBE0CEEF6EBB7BC35CE88;269.
  ) 
 Here is how much of TeX's memory you used:
- 20989 strings out of 479304
- 390560 string characters out of 5869780
+ 20991 strings out of 479304
+ 390577 string characters out of 5869780
  717059 words of memory out of 5000000
  37673 multiletter control sequences out of 15000+600000
  418675 words of font info for 35 fonts, out of 8000000 for 9000
@@ -1120,10 +1122,10 @@ Here is how much of TeX's memory you used:
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
 public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmss8.pfb>
-Output written on pre-keynote.pdf (7 pages, 81377 bytes).
+Output written on pre-keynote.pdf (8 pages, 83591 bytes).
 PDF statistics:
- 248 PDF objects out of 1000 (max. 8388607)
- 223 compressed objects within 3 object streams
- 19 named destinations out of 1000 (max. 500000)
+ 274 PDF objects out of 1000 (max. 8388607)
+ 248 compressed objects within 3 object streams
+ 21 named destinations out of 1000 (max. 500000)
  92 words of extra memory for PDF output out of 10000 (max. 10000000)
 
