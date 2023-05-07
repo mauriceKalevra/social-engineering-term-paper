@@ -1,0 +1,73 @@
+This is BibTeX, Version 0.99d (TeX Live 2020/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: template.aux
+The style file: alpha.bst
+Database file #1: ref.bib
+Repeated entry---line 15 of file ref.bib
+ : @article{static
+ :                ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 34 of file ref.bib
+ : 
+ : @article{method,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in li2018fuzzing
+Warning--empty journal in algo
+Warning--empty journal in method
+Warning--empty journal in goat
+Warning--empty journal in info
+Warning--empty author in li2018fuzzing
+Warning--empty journal in li2018fuzzing
+Warning--empty year in li2018fuzzing
+Warning--empty journal in sully
+Warning--empty journal in static
+Warning--empty journal in nist
+Warning--empty journal in vuln_stat
+Warning--empty journal in fuzzer
+Warning--empty journal in afl
+Warning--empty journal in code
+Warning--empty journal in google
+Warning--empty journal in fuzz
+You've used 14 entries,
+            2543 wiz_defined-function locations,
+            612 strings with 5535 characters,
+and the built_in function-call counts, 3645 in all, are:
+= -- 344
+> -- 105
+< -- 13
++ -- 26
+- -- 26
+* -- 190
+:= -- 625
+add.period$ -- 40
+call.type$ -- 14
+change.case$ -- 69
+chr.to.int$ -- 14
+cite$ -- 32
+duplicate$ -- 195
+empty$ -- 283
+format.name$ -- 52
+if$ -- 708
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 14
+newline$ -- 71
+num.names$ -- 39
+pop$ -- 101
+preamble$ -- 1
+purify$ -- 83
+quote$ -- 0
+skip$ -- 150
+stack$ -- 0
+substring$ -- 99
+swap$ -- 0
+text.length$ -- 13
+text.prefix$ -- 13
+top$ -- 0
+type$ -- 112
+warning$ -- 17
+while$ -- 26
+width$ -- 17
+write$ -- 152
+(There were 2 error messages)

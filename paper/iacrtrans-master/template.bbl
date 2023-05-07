@@ -1,0 +1,76 @@
+\begin{thebibliography}{OWA22}
+
+\bibitem[Asc20]{algo}
+Cornelius Aschermann.
+\newblock Algorithmic improvements for feedback-driven fuzzing.
+\newblock 2020.
+
+\bibitem[Dec20]{method}
+Sergej Dechand.
+\newblock Introduction and fuzzing 101,
+  https://www.youtube.com/watch?v=7adzrxbuew0.
+\newblock 2020.
+
+\bibitem[fuz21]{goat}
+fuzzstati0n.
+\newblock Welcome to fuzzgoat.
+\newblock 2021.
+
+\bibitem[Gar12]{info}
+Parul Garg.
+\newblock Fuzzing: Mutation vs. generation.
+\newblock 2012.
+
+\bibitem[li2]{li2018fuzzing}
+Fuzzing: a survey author={Li, Jun and Zhao, Bodong and Zhang, Chao},
+  journal={Cybersecurity}, volume={3}, number={3}, pages={1--13}, year={2018},
+  publisher={SpringerOpen}.
+
+\bibitem[Luk12]{sully}
+Dejan Lukan.
+\newblock Sulley fuzzing framework intro.
+\newblock 2012.
+
+\bibitem[McG04]{static}
+McGraw.
+\newblock Static analysis for security.
+\newblock 2004.
+
+\bibitem[NIS19]{nist}
+NIST.
+\newblock Vulnerability metrics.
+\newblock 2019.
+
+\bibitem[O'D22]{vuln_stat}
+Aimee O'Driscoll.
+\newblock 25+ cyber security vulnerability statistics and facts of 2022.
+\newblock 2022.
+
+\bibitem[OWA22]{fuzzer}
+OWASP.
+\newblock Fuzzing.
+\newblock 2022.
+
+\bibitem[rea22]{afl}
+readthedocs.io.
+\newblock fuzzing with afl fuzz.
+\newblock 2022.
+
+\bibitem[Rei20]{code}
+Jonathan Reimer.
+\newblock 5 cves found with feedback-based fuzzing,
+  https://www.code-intelligence.com/blog/5-cves-found-with-feedback-based-fuzzing.
+\newblock 2020.
+
+\bibitem[Tun19]{google}
+Liam Tung.
+\newblock Google: We've open-sourced clusterfuzz tool that found 16,000 bugs in
+  chrome.
+\newblock 2019.
+
+\bibitem[Zel22]{fuzz}
+Andreas Zeller.
+\newblock Fuzzing: Breaking things with random inputs.
+\newblock 2022.
+
+\end{thebibliography}
