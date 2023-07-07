@@ -59,7 +59,7 @@
 
 % Common definitions
 \RequirePackage{xkeyval}
-\def\publname{Technische Lösungsansätze gegen Phishing}
+\def\publname{Soziotechnische Lösungsansätze gegen Phishing}
 \def\publnameshort{FZ }
 \define@choicekey*+{IACR}{journal}[\val\nr]{tosc,tches}{%
     \ifcase\nr\relax
