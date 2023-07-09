@@ -36,13 +36,23 @@
 \maketitle
 \author
 
+\begin{center}
+\date{Sommersemester 2023 } 
+\end{center}
 
+
+
+%\vspace{15mm}
 %%% 5. KEYWORDS %%%%s
 \keywords{Social-Engineering \and Phishing \and IT-Security \and Container \and DNS }
 
 
 %%%% 6. ABSTRACT %%%%s
 \begin{abstract} Phishing zählt nach wie vor zu den häufigsten Methoden bei Cyberangriffen. Dabei werden versucht vertrauliche Informationen wie Passwörter oder Kreditkartennummern abzugreifen. Hierbei werden soziale Manipulationstechniken oder gefälschte Kommunikationskanäle genutzt, um das Vertrauen des Opfers zu gewinnen. Diese Arbeit untersucht Technische Lösungsansätze um dies vorzubeugen.  \end{abstract}
+
+\newpage
+\tableofcontents
+\newpage
 
 %%%% 7. PAPER CONTENT %%%%
 \section{Einführung}
@@ -57,27 +67,51 @@ Die Bekämpfung von Phishing erfordert eine Kombination aus technischen Lösunge
 
 \newpage
 
-\section{Sozio-technisches Systeme}
-Ein sozio-technisches System ist ein Konzept, das die Wechselwirkung zwischen sozialen und technologischen Elementen in einer bestimmten Umgebung oder Organisation beschreibt. Konkret wird die Tatsache betrachtet, dass in vielen Bereichen und Systemen ein Zusammenspiel sowie eine Abhängigkeit zwischen Menschen und Technologien besteht. Zudem wird festgestellt das die Implementierung von Technologien nicht isoliert von sozialen, kulturellen oder organisatorschen Aspekten betrachtet werden kann. Stattdessen besteht selbst in vermeintlich rein technologischen Prozessen immer eine Abhängigkeit von Menschlichen, irrationalen Einflüssen.\\
-Es ist möglich nahezu alle adaptiven Systeme als Sozio-technische Systeme zu modellieren. Darunter fallen beispielsweise Flugkontrollsysteme, Social-Media Plattformen, Krankenhausinformationssyste oder Bildungseinrichtungen.\\
-In Figure 1 wird ein Arbeitssystem als Sozio-technisches System dargestellt.
+\section{Soziotechnische Systeme}
+Ein soziotechnisches System ist ein Konzept, das die Wechselwirkung zwischen sozialen und technologischen Elementen in einer bestimmten Umgebung oder Organisation beschreibt. Konkret wird die Tatsache betrachtet, dass in vielen Bereichen und Systemen ein Zusammenspiel sowie eine Abhängigkeit zwischen Menschen und Technologien besteht. Zudem wird festgestellt das die Implementierung von Technologien nicht isoliert von sozialen, kulturellen oder organisatorschen Aspekten betrachtet werden kann. Stattdessen besteht selbst in vermeintlich rein technologischen Prozessen immer eine Abhängigkeit von Menschlichen, irrationalen Einflüssen.\\
+Es ist möglich nahezu alle adaptiven Systeme als Soziotechnische Systeme zu modellieren. Darunter fallen beispielsweise Flugkontrollsysteme, Social-Media Plattformen, Krankenhausinformationssysteme oder Bildungseinrichtungen.\\
+In Figure 1 wird ein Arbeitssystem als Soziotechnisches System dargestellt.
 \begin{figure}[h]
-\caption{Sozio-technisches System}
+\caption{Soziotechnisches System}
 \begin{center}
  \includegraphics[scale=0.5]{sozio.png}
 \end{center}
 \end{figure}
 
-Generell besteht ein Soziotechnisches System aus 2 Grundkomponenten.. Einer technische Teilkomponente und einer soziale Teilkomponente. Diese haben jeweils weitere Subkomponenten. Das Arbeitssystem besteht aus 2 sozialen Teilkomponenten. Mitgliedern sowie Rollen bzw. Strukturen. Zudem gibt es 2 Technische Teilkomponenten. Eine Technologie, und eine definierte Aufgabe. Alle Teile des Arbeitssystems haben Abhängigkeiten untereinander. Um nun aus einem Input einen Output zu erzeugen, müssen alle Teilkomponenten wechselseitig Interagieren. Fällt eines der Teilkomponenten aus, so ist das gesamte Arbeitssystem nicht mehr lauffähig. Die Technologie bearbeitet und verbessert die Arbeitsprozesse, während die Mitarbeiter ihr Fachwissen und ihre Erfahrung einbringen, um die Systeme zu steuern, zu überwachen und anzupassen. Die Effizienz und Qualität der Produktion hängen sowohl von der technischen Leistungsfähigkeit als auch von der Zusammenarbeit und Interaktion zwischen den Menschen und der Technologie ab. Die Betrachtung von sozio-technischen Systemen ist wichtig, um die Auswirkungen technologischer Veränderungen auf die Arbeitswelt, die Gesellschaft und die Menschen zu verstehen. Es fördert einen ganzheitlichen Ansatz bei der Gestaltung und Implementierung von Technologie, bei dem soziale, organisatorische und technologische Faktoren berücksichtigt werden, um positive Ergebnisse und ein besseres Zusammenwirken von Mensch und Technologie zu erzielen. Insbesondere kann es helfen Problematiken in komplexen Systemen und Prozessen zu verstehen und richtig einzuordnen. Davon ausgehend können nun Lösungen entwickelt werden, die sowohl technische als auch soziale Aspekte miteinbeziehen.  
+Generell besteht ein Soziotechnisches System aus 2 Grundkomponenten.. Einer technische Teilkomponente und einer soziale Teilkomponente. Diese haben jeweils weitere Subkomponenten. Das Arbeitssystem besteht aus 2 sozialen Teilkomponenten. Mitgliedern sowie Rollen bzw. Strukturen. Zudem gibt es 2 Technische Teilkomponenten. Eine Technologie, und eine definierte Aufgabe. Alle Teile des Arbeitssystems haben Abhängigkeiten untereinander. Um nun aus einem Input einen Output zu erzeugen, müssen alle Teilkomponenten wechselseitig Interagieren. Fällt eines der Teilkomponenten aus, so ist das gesamte Arbeitssystem nicht mehr lauffähig. Die Technologie bearbeitet und verbessert die Arbeitsprozesse, während die Mitarbeiter ihr Fachwissen und ihre Erfahrung einbringen, um die Systeme zu steuern, zu überwachen und anzupassen. Die Effizienz und Qualität der Produktion hängen sowohl von der technischen Leistungsfähigkeit als auch von der Zusammenarbeit und Interaktion zwischen den Menschen und der Technologie ab. Die Betrachtung von Soziotechnischen Systemen ist wichtig, um die Auswirkungen technologischer Veränderungen auf die Arbeitswelt, die Gesellschaft und die Menschen zu verstehen. Es fördert einen ganzheitlichen Ansatz bei der Gestaltung und Implementierung von Technologie, bei dem soziale, organisatorische und technologische Faktoren berücksichtigt werden, um positive Ergebnisse und ein besseres Zusammenwirken von Mensch und Technologie zu erzielen. Insbesondere kann es helfen Problematiken in komplexen Systemen und Prozessen zu verstehen und richtig einzuordnen. Davon ausgehend können nun Lösungen entwickelt werden, die sowohl technische als auch soziale Aspekte miteinbeziehen.  
 \newpage
-\subsection{Phishing als Sozio-technisches System}
-Phishing ist ein sozio-technisches System, das auf die Manipulation von menschlichem Verhalten abzielt, indem es Technologie und soziale Techniken kombiniert. Es basiert auf dem Missbrauch von Vertrauen und der Ausnutzung von Schwachstellen in der menschlichen Natur. Das sozio-technische Phishing-System besteht aus verschiedenen Elementen, darunter die Erstellung gefälschter Websites oder E-Mails, die sich als vertrauenswürdige Quellen ausgeben, um persönliche Daten wie Passwörter oder Kreditkarteninformationen zu stehlen. Es nutzt auch psychologische Techniken, um Dringlichkeit oder Angst zu erzeugen, um Menschen dazu zu bringen, impulsiv zu handeln und persönliche Informationen preiszugeben. Phishing ist ein komplexes Zusammenspiel aus Technologie, sozialem Engineering und menschlichem Verhalten, das es Angreifern ermöglicht, effektiv Informationen zu stehlen und finanziellen Schaden anzurichten. Ein tiefgreifendes Verständnis des sozio-technischen Phishing-Systems ist von entscheidender Bedeutung, um wirksame Schutzmaßnahmen zu entwickeln und die Öffentlichkeit über die Gefahren und Präventionsstrategien aufzuklären.
-Betrachtet man Phishing aus dieser Sicht, fällt schnell auf, das bei eine kombination von technischen und sozialen aspekten nutzt. Dies kann wie folgt modeliert werden. 
-\section{Angriffslanndschaft}
-\section{Systematik von Phishing Prävention}
+\subsection{Phishing als Soziotechnisches System}
+Ein Phishingangriff kann als ein Soziotechechnisches System modelliert werden. Die technischen Komponenten umfassen den Einsatz von Webseiten, E-Mails oder Kurznachrichtendiensten. Zu sozialen Komponenten zählen Angreifer sowie die Phishing Opfer. Des weiteren gibt es zwischen technischen und sozialen Komponenten Interaktionen und Abhängigkeiten. Um ein vollständiges System zu modellieren, muss zudem ein Ziel definiert werden. In Figure 2 ist Phishing als Soziotechnisches System modelliert.
+\begin{center}
+ \begin{figure}[h]
+  \caption{Phishing als Soziotechnisches System}
+  \includegraphics[scale=0.5]{syst.png}
+ \end{figure}
+\end{center}
+Hierbei spielen die technischen Subkomponenten wie Webseiten, E-Mails und Messenger Dienste, wechselseitig mit den sozialen Subkomponenten wie Anreifer und Opfer zusammen, um an das Ziel, in Form von Informationen und Geld zu gelangen. Genauer  betrachtet bedient und missbraucht ein Phishingangriff die verschiedenen Komponenten. 
+
+\begin{enumerate}
+\item Technische Komponenten
+\begin{itemize}
+\item Mail-Server: Der Server, über den Phishing-E-Mails an potenzielle Opfer gesendet werden.
+\item Phishing-Website: Eine gefälschte Website, die erstellt wurde, um die Opfer zur Preisgabe ihrer vertraulichen Informationen zu verleiten.
+\item DNS-Server: Der Server, der die Domainnamen auflöst und es den Angreifern ermöglicht, gefälschte Domains zu verwenden.
+\end{itemize}
+\item Soziale Komponenten
+\begin{itemize}
+\item Phisher: Die Angreifer, welche die Phishing-Angriffe initiieren.
+\item Opfer: Die Personen, die das Ziel der Phishing-Angriffe sind.
+\end{itemize}
+\end{enumerate}
+Die Interaktion zwischen diesen Teilkomponenten sind beispielsweise der E-Mail Versand, die Nutzung von Webseiten oder die Preisgabe von Informationen. Diese Modellierung zeigt, die starke Interaktion zwischen den Komponenten. Zudem können Schwachstellen in diesem System identifiziert werden und geeignete Schutzmaßnahmen implementiert werden.
+\subsection{Phishing-Prävention}
+Durch die Betrachtung von Phishing als Soziotechechnische System, ist festzustellen das dieses eine hohe Anzahl an Abhängikeiten aufweist. Fällt eines der Subkomponenten aus, stoppt der Arbeitsprozess in Form des Phishing Angriffes. Wäre es möglich eines oder mehrere der Subkomponenten vollständig zu abzuschalten, könnte der Wirkungsgrad eines Phishingangriffes stark eingegrenzt werden. Dies gilt insbesondere für die Nutzung der Technischen Komponenten von seiten des Opfers. Diese werden als Einstiegskanal für die Interaktion zwischen Angreifer und Opfer genutzt. Könnte man also konkret die technische Teilkomponente wie ein E-Mail Client isolieren, wäre eine Interaktion deutlich schwerer. Auch Soziale Komponenten können verwendet  werden um einen Phishingangriff zu unterbinden. Die Effectivste Methode besteht jedoch darin, soziale und technische Teilkomponenten in einer soziotechnischen Lösung zusammenzuführen.
+\section{Soziale Lösungsansätze}
+Soziale Lösungsansätze gegen Phishing konzentrieren sich auf die Stärkung der Benutzer, die Sensibilisierung der Öffentlichkeit und die Förderung der Zusammenarbeit auf kollektiver Ebene. Diese Ansätze zielen darauf ab, das Wissen und die Fähigkeiten der Nutzer zu verbessern.
 \section{Technische Lösungsansätze}
 \subsection{DNS-Header}
-\section{Container}
+\subsection{Container}
+\section{Soziotechechnische Lösungen}
 \bibliographystyle{alpha}
 \bibliography{ref.bib}
 \end{document}
