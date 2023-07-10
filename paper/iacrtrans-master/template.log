@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.4.5)  3 JUL 2022 23:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.5.23)  10 JUL 2023 22:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -816,8 +816,12 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@out=\write4
 \tcb@record@out=\write5
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 42.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 42
+(/usr/share/texlive/texmf-dist/tex/latex/quoting/quoting.sty
+Package: quoting 2014/01/28 v0.1c Consolidated environment for displayed text
+\quo@toppartop=\skip71
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 36.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 36
 .
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
@@ -831,22 +835,22 @@ File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
 (./template.aux)
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -906,14 +910,14 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 42.
+LaTeX Info: Redefining \microtypecontext on input line 36.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 42.
+LaTeX Info: Redefining \showhyphens on input line 36.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -922,7 +926,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 \c@lstlisting=\count340
-Package hyperref Info: Link coloring ON on input line 42.
+Package hyperref Info: Link coloring ON on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -935,16 +939,16 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count341
 )
-LaTeX Info: Redefining \ref on input line 42.
-LaTeX Info: Redefining \pageref on input line 42.
-LaTeX Info: Redefining \nameref on input line 42.
+LaTeX Info: Redefining \ref on input line 36.
+LaTeX Info: Redefining \pageref on input line 36.
+LaTeX Info: Redefining \nameref on input line 36.
 
 (./template.out) (./template.out)
 \@outlinefile=\write6
 \openout6 = `template.out'.
 
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
-5.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
+9.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -952,37 +956,37 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
-5.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
+9.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
-5.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
+9.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-45.
+39.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-45.
+39.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 45.
+(Font)              <10> on input line 39.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 45.
+(Font)              <7> on input line 39.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 45.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
+(Font)              <5> on input line 39.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -991,7 +995,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1000,8 +1004,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 4
-5.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 3
+9.
 
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1011,81 +1015,97 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 45.
+(Font)              <9> on input line 39.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 45.
+(Font)              <6> on input line 39.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 5
-5.
+3.
 
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 IACR@AUTHOR: Moritz Rupp
-IACR@TITLE: Fuzzing Methods
+IACR@TITLE: Soziotechnische LÃ¶sungsansÃ¤tze gegen Phishing
 
-<CC-by.pdf, id=56, 80.34015pt x 15.0964pt>
+<CC-by.pdf, id=54, 80.34015pt x 15.0964pt>
 File: CC-by.pdf Graphic file (type pdf)
 <use CC-by.pdf>
-Package pdftex.def Info: CC-by.pdf  used on input line 69.
+Package pdftex.def Info: CC-by.pdf  used on input line 55.
 (pdftex.def)             Requested size: 41.24384pt x 7.74997pt.
 [1.1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
- <./CC-by.pdf>] [2.2]
-<../final2.png, id=91, 1942.25626pt x 394.47375pt>
-File: ../final2.png Graphic file (type png)
-<use ../final2.png>
-Package pdftex.def Info: ../final2.png  used on input line 104.
-(pdftex.def)             Requested size: 388.44437pt x 78.89334pt.
+ <./CC-by.pdf>]
+(./template.toc)
+\tf@toc=\write7
+\openout7 = `template.toc'.
 
-[3.3 <../final2.png>]
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-) [4.4]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5.5] [6.6] [7.7]
-<afl.png, id=177, 804.00375pt x 536.0025pt>
-File: afl.png Graphic file (type png)
-<use afl.png>
-Package pdftex.def Info: afl.png  used on input line 287.
-(pdftex.def)             Requested size: 281.40553pt x 187.60368pt.
- [8.8 <./afl.png>] (./template.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 9--13
-[]\T1/lmr/m/n/10 (+20) Sergej Dec-hand.  In-tro-duc-tion and fuzzing 101,
+ [2.2] [3.3]
+<sozio.png, id=92, 575.14874pt x 307.1475pt>
+File: sozio.png Graphic file (type png)
+<use sozio.png>
+Package pdftex.def Info: sozio.png  used on input line 79.
+(pdftex.def)             Requested size: 287.57367pt x 153.57336pt.
+ [4.4 <./sozio.png>]
+<syst.png, id=98, 666.49pt x 304.13625pt>
+File: syst.png Graphic file (type png)
+<use syst.png>
+Package pdftex.def Info: syst.png  used on input line 90.
+(pdftex.def)             Requested size: 333.24419pt x 152.06775pt.
+ [5.5 <./syst.png>]
+Overfull \hbox (0.25885pt too wide) in paragraph at lines 112--116
+\T1/lmr/m/n/10 (-20) Durch Schu-lun-gen, Work-shops und In-for-ma-tion-skam-pag
+-nen kön-nen Be-nutzer über Phishing-
  []
 
-) (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
+[6.6]
+<spf.png, id=113, 586.19pt x 366.36874pt>
+File: spf.png Graphic file (type png)
+<use spf.png>
+Package pdftex.def Info: spf.png  used on input line 127.
+(pdftex.def)             Requested size: 293.09428pt x 183.18391pt.
+ [7.7 <./spf.png>]
+<dmarc.png, id=121, 585.18625pt x 243.91125pt>
+File: dmarc.png Graphic file (type png)
+<use dmarc.png>
+Package pdftex.def Info: dmarc.png  used on input line 139.
+(pdftex.def)             Requested size: 292.5924pt x 121.95532pt.
+ [8.8 <./dmarc.png>]
+<iso.png, id=130, 758.835pt x 456.70625pt>
+File: iso.png Graphic file (type png)
+<use iso.png>
+Package pdftex.def Info: iso.png  used on input line 191.
+(pdftex.def)             Requested size: 379.41658pt x 228.35255pt.
+ [9.9] [10.10 <./iso.png>]
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 )
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-) [9.9]
+) [11.11]
 (./template.aux)
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 296EE9BE94424A00198811CFA917E5C2;621.
+(rerunfilecheck)             Checksum: 890DED3630FEC7EC9DED93AB02FAA57A;713.
  )
-(\end occurred when \iftrue on line 55 was incomplete) 
+(\end occurred when \iftrue on line 53 was incomplete) 
 Here is how much of TeX's memory you used:
- 24782 strings out of 479304
- 448003 string characters out of 5869780
- 1071544 words of memory out of 5000000
- 41227 multiletter control sequences out of 15000+600000
- 485631 words of font info for 162 fonts, out of 8000000 for 9000
+ 24318 strings out of 479304
+ 444330 string characters out of 5869779
+ 824247 words of memory out of 5000000
+ 40802 multiletter control sequences out of 15000+600000
+ 485668 words of font info for 162 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 96i,14n,102p,1069b,1574s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 96i,14n,102p,1736b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/e
 nc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/sha
-re/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/
-fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt8.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb>
-Output written on template.pdf (9 pages, 438583 bytes).
+re/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/font
+s/type1/public/lm/lmtt9.pfb>
+Output written on template.pdf (11 pages, 308546 bytes).
 PDF statistics:
- 242 PDF objects out of 1000 (max. 8388607)
- 212 compressed objects within 3 object streams
- 77 named destinations out of 1000 (max. 500000)
- 50814 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 187 PDF objects out of 1000 (max. 8388607)
+ 153 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 52365 words of extra memory for PDF output out of 61914 (max. 10000000)
 

@@ -1,11 +1,11 @@
-\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Fuzzing background}{}% 2
-\BOOKMARK [1][-]{section.3}{Functionality}{}% 3
-\BOOKMARK [1][-]{section.4}{Fuzzing Methods}{}% 4
-\BOOKMARK [2][-]{subsection.4.1}{Random fuzzing}{section.4}% 5
-\BOOKMARK [2][-]{subsection.4.2}{Mutation based fuzzing}{section.4}% 6
-\BOOKMARK [2][-]{subsection.4.3}{Generation based fuzzing}{section.4}% 7
-\BOOKMARK [2][-]{subsection.4.4}{Fuzzer types}{section.4}% 8
-\BOOKMARK [1][-]{section.5}{Tooling}{}% 9
-\BOOKMARK [2][-]{subsection.5.1}{Practical example}{section.5}% 10
-\BOOKMARK [1][-]{section.6}{Conclusion}{}% 11
+\BOOKMARK [1][-]{section.1}{Einf\374hrung}{}% 1
+\BOOKMARK [1][-]{section.2}{Soziotechnische Systeme}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Phishing als Soziotechnisches System}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Phishing-Pr\344vention}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Soziale L\366sungsans\344tze}{}% 5
+\BOOKMARK [1][-]{section.4}{Technische L\366sungsans\344tze}{}% 6
+\BOOKMARK [2][-]{subsection.4.1}{E-Mail-Authentifizierung}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.2}{Isolierung von Technischen Komponenten}{section.4}% 8
+\BOOKMARK [1][-]{section.5}{Soziotechechnische L\366sungen}{}% 9
+\BOOKMARK [1][-]{section.6}{Fazit und Ausblick}{}% 10
+\BOOKMARK [1][-]{section.7}{Quellen}{}% 11
