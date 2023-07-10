@@ -182,9 +182,18 @@ CMD /usr/bin/firefox
 
 Ein Container wird stets auf einem Base Image aufgebaut. Dieses dient als
 Fundament für alle folge Instruktionen und enthält je nach Image ein grundlegendes Dateisystem sowie vorinstallierte Software.
-In Zeile 1(vgl. Figure 5) wird als Base Image Ubuntu deklariert. Anschließend werden Dienste aktualisiert sowie die Anwendung firefox installiert. Zeile 4-9 dienen der Erstellung eines Benutzers "developer" innerhalb des Containers mit der UID (Benutzer-ID) 1000 und der GID (Gruppen-ID) 1000. Es wird ein Verzeichnis "/home/developer" erstellt und die Berechtigungen und Eigentümerschaft werden entsprechend gesetzt. In Zeile 12 wird festgelegt das beim Start des Containers der Befehl "/usr/bin/firefox" ausgeführt wird, was dazu führt, dass der Firefox-Browser gestartet wird. Mit \colorbox{mshadecolor}{\parbox{0.38\textwidth}{Docker build -t firefox-isolierung .}} wird aus dem Dockerfile ein Image erstellt.
-\section{Soziotechechnische Lösungen} 
+In Zeile 1(vgl. Figure 5) wird als Base Image Ubuntu deklariert. Anschließend werden Dienste aktualisiert sowie die Anwendung firefox installiert. Zeile 4-9 dienen der Erstellung eines Benutzers "developer" innerhalb des Containers mit der UID (Benutzer-ID) 1000 und der GID (Gruppen-ID) 1000. Es wird ein Verzeichnis "/home/developer" erstellt und die Berechtigungen und Eigentümerschaft werden entsprechend gesetzt. In Zeile 12 wird festgelegt das beim Start des Containers der Befehl "/usr/bin/firefox" ausgeführt wird, was dazu führt, dass der Firefox-Browser gestartet wird. Mit \colorbox{mshadecolor}{\parbox{0.38\textwidth}{Docker build -t firefox-isolierung .}} wird aus dem Dockerfile ein Image erstellt. Dieses kann nun mit \colorbox{mshadecolor}{\parbox{0.31\textwidth}{Docker run firefox-isloierung}} gestartet werden. Nun öffnet sich der Firefox-Browser auf dem Host-System. Dieser ist allerdings durch den Docker-Container Isoliert.
+\section{Soziotechechnische Lösungen}
+Soziotechnische Lösungsansätze gegen Phishing stellen einen ganzheitlichen Ansatz dar, der sowohl technische als auch soziale Aspekte berücksichtigt, um Phishing-Angriffe wirksam zu bekämpfen.
+Durch die Betrachtung von Phishing als Soziotechnisches System konnten Methoden und techniken herausgearbeitet werden, die Komponenten des Phishing Systems regulieren, sodass dieses stark eingegrenzt ist. Betrachtet man nun das Soziotechnische System, ist festzustellen das viele Interaktionen stark eingegrenzt sind.
+\begin{figure}[h]
+ \caption{Soziotechechnisches System Phishing nach Maßnahmen}
+ \centering \includegraphics[scale=0.5]{iso.png}
+\end{figure}
+
 \section{Fazit und Ausblick}
-\bibliographystyle{alpha}
-\bibliography{ref.bib}
+Durch die Betrachtung und Modellierung von Phishing als Soziotechnisches System, konnten Schwachstellen des Systems erkannt und ausgenutzt werden, um Phishingangriffe einzudämmen. Zudem wurdem Soziotechnische Maßnahmen in Form von Kombination von technischen und sozialen Komponenten verwendet um den Schutz zu optmiert. Hierbei wurde darauf abgezielt, Benutzer zu befähigen, Phishing-Angriffe zu erkennen und ihnen aktiv entgegenzutreten, während sie gleichzeitig technische Tools und Sicherheitsmechanismen nutzen, um die Sicherheit der digitalen Kommunikation zu stärken. Durch diese ganzheitliche Herangehensweise können soziotechnische Lösungsansätze einen wichtigen Beitrag zur Reduzierung von Phishing-Angriffen und zum Schutz von Benutzern und Unternehmen leisten.
+\newpage
+\section{Quellen}
+[1] Docker
 \end{document}
