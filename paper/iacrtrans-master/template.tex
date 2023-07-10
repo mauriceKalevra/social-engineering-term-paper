@@ -14,6 +14,8 @@
 \usepackage{xcolor}
 \usepackage{tcolorbox}
 \usepackage{xcolor} 
+\usepackage{listings}
+\usepackage{quoting} %
 \colorlet{shadecolor}{gray!25}
 \definecolor{mshadecolor}{rgb}{0.7421875,0.7421875,0.7421875}
 \setlength{\OuterFrameSep}{10pt}
@@ -109,13 +111,80 @@ Durch die Betrachtung von Phishing als Soziotechechnische System, ist festzustel
 \section{Soziale Lösungsansätze}
 Soziale Lösungsansätze gegen Phishing konzentrieren sich auf die Stärkung der Benutzer, die Sensibilisierung der Öffentlichkeit und die Organisation von Richtlinien.\\
 Durch Schulungen, Workshops und Informationskampagnen können Benutzer über Phishing-Techniken, Angriffsvektoren und typische Warnsignale aufgeklärt werden. Ziel sollte es sein zu lernen, verdächtige E-Mails zu identifizieren, Links und Anhänge zu überprüfen und verschiede Phishing-Angriffen zu erkennen. Dies beinhaltet das Erlernen von Indikatoren wie Grammatik- und Rechtschreibfehler, verdächtige URLs, Anfragen nach persönlichen Informationen oder Finanzdaten und die Nutzung von Social Engineering-Taktiken. Zudem sollte auch über die verschiedenen Arten von Phishing informiert werden, wie z. B. Spear-Phishing, Pharming und Vishing.\\ Um die Kompetenzen der Nuutzer weiter zu stärken, können praktische Übungen und Phishing-Simulationen durchgeführt werden. Hierbei werden  Phishing-E-Mails oder gefälschte Websites präsentiert, um die Fähigkeit der Nutzer zur Erkennung und Handhabung von Phishing-Angriffen zu testen. Zudem sollten spezielle Programme für nicht IT-Affine Nutzer bereitgestellt werden. Eine Studie fand heraus das Wissen über Phishingangriffe stark altersabhängig ist. Hierbei wurden vier Altersgruppen zwischen 18 bis 55 Jahren zu Terminologie von Phishing befragt. Personen ab 55 Jahren waren die Begriffe „Phishing“ und „Ransomware“ am ehesten bekannt. Bei den Begriffen „Smishing“ und „Vishing“ konnten allerdings lediglich 20\% der befragten richtig antworten.\\
-Weitere Maßnahmen sollten die Implementierungen von Unternehmensspezifischen Sicherheitsrichtlinien sein. Dies umfasst Anweisungen, wie man verdächtige E-Mails erkennt, nicht auf unerwünschte Anfragen reagiert, Links und Anhänge überprüft und potenziell betrügerische E-Mails meldet. Eine Richtlinie für externe Kommunikation, insbesondere in Bezug auf Anfragen nach sensiblen Informationen oder finanziellen Transaktionen, sollte entwickelt werden. Mitarbeiter sollten darin geschult werden, solche Anfragen gründlich zu überprüfen, bevor sie reagieren, und bei Verdacht den richtigen Kanal für die Überprüfung zu verwenden.
+Weitere Maßnahmen sollten die Implementierungen von Unternehmensspezifischen Sicherheitsrichtlinien sein. Dies umfasst Anweisungen, wie man verdächtige E-Mails erkennt, nicht auf unerwünschte Anfragen reagiert, Links und Anhänge überprüft und potenziell betrügerische E-Mails meldet. Eine Richtlinie für externe Kommunikation, insbesondere in Bezug auf Anfragen nach sensiblen Informationen oder finanziellen Transaktionen, sollte entwickelt werden. Mitarbeiter sollten darin geschult werden, solche Anfragen gründlich zu überprüfen, bevor sie reagieren, und bei Verdacht den richtigen Kanal für die Überprüfung zu verwenden.\\
+Soziale Lösungsansätze können dazu beitragen das Soziotechnische System Phishing außer kraft zu setzen. Allerdings besteht durch die Mitwirkung nicht-deterministischer sozialer Komponenten  keine Garantie für die Einnhaltung der definierten Maßnahmen, da Menschliche Fehler niemals komplett auszuschließen sind.
 
 \newpage
 \section{Technische Lösungsansätze}
-\subsection{DNS-Header}
-\subsection{Container}
-\section{Soziotechechnische Lösungen}
+Technische Lösungsansätze behandeln Schutzmaßnahmen die versuchen technische Komponenten zu regulieren. Dafür werden verschiedene Methoden und Technologien wie E-Mail-Authentifizierung, Anti-Phishing-Filter und maschinelles Lernen diskutiert. Zudem wird eine Lösung durch Isolierung anhand von Container vorgestellt und implementiert. 
+\subsection{E-Mail-Authentifizierung}
+E-Mail-Authentifizierung bezieht sich auf eine Reihe von Technologien und Standards, die entwickelt wurden, um die Authentizität von E-Mails zu überprüfen und die Verbreitung von gefälschten oder betrügerischen E-Mails wie Phishing einzudämmen. Diese Technologien ermöglichen es den Empfängern, die Gültigkeit einer E-Mail-Quelle zu überprüfen und sicherzustellen, dass die Nachricht tatsächlich von der angegebenen Absenderdomain stammt. Die wichtigsten Standards für E-Mail-Authentifizierung sind Sender Policy Framework, DomainKeys Identified Mail und Domain-based Message Authentication, Reporting, and Conformance.
+\subsubsection{Sender Policy Framework - SPF}
+SPF ermöglicht es dem Domaininhaber, eine Liste von IP-Adressen oder Servern festzulegen, die berechtigt sind, E-Mails im Namen der Domain zu senden. Der empfangende Mailserver kann überprüfen, ob die IP-Adresse des sendenden Servers mit der SPF-Eintragung der Absenderdomain übereinstimmt, um die Authentizität der E-Mail zu überprüfen. Der Mechanismus ist in Figure 3 beschrieben.
+
+ \begin{figure}[h]
+\centering  \caption{Sender Policy Framework}
+  \includegraphics[scale=0.5]{spf.png}
+ \end{figure}
+
+
+
+ Der Domaininhaber definiert eine SPF-Eintragung im DNS seiner Domain. Diese Eintragung enthält Informationen über die IP-Adressen oder Server, die berechtigt sind, E-Mails im Namen der Domain zu senden. Wenn eine E-Mail gesendet wird, prüft der empfangende Mailserver die SPF-Eintragung der angegebenen Absenderdomain. Der empfangende Mailserver ermittelt die IP-Adresse des sendenden Servers, von dem die E-Mail stammt. Der empfangende Mailserver vergleicht die IP-Adresse mit den in der SPF-Eintragung angegebenen IP-Adressen oder Servern. Wenn die IP-Adresse in der SPF-Eintragung enthalten ist, wird die E-Mail als authentisch eingestuft. Ist die IP-Adresse nicht in der SPF-Eintragung enthalten oder stimmt nicht mit den angegebenen IP-Adressen überein, kann der empfangende Mailserver die E-Mail als verdächtig behandeln und entsprechende Maßnahmen ergreifen, z. B. die E-Mail ablehnen oder in den Spam-Ordner verschieben.
+ \subsubsection{DomainKeys Identified Mail - DKIM}
+ DKIM fügt der E-Mail eine digitale Signatur hinzu, die mit einem privaten Schlüssel von der Absenderdomain erstellt wurde. Beim Empfang der E-Mail kann der empfangende Mailserver die Signatur überprüfen, indem er den öffentlichen Schlüssel abruft und die Signaturintegrität überprüft. Wenn die Signatur gültig ist, wird die E-Mail als authentisch eingestuft. Die Einrichtung funktioniert wie folgt. Beim Versenden einer E-Mail erstellt der Absender eine digitale Signatur mithilfe eines privaten Schlüssels, der der Absenderdomain zugeordnet ist. Die Signatur wird mit Hilfe einer kryptographischen Hash-Funktion erzeugt, die den Inhalt der E-Mail einschließt. Diese Signatur ist ein eindeutiger Code, der die Echtheit der E-Mail und deren Inhalt bestätigt. Des weiteren veröffentlicht der Absender einen DKIM-Eintrag im DNS seiner Domain. Dieser Eintrag enthält den öffentlichen Schlüssel, der von den Empfängern verwendet wird, um die DKIM-Signatur zu überprüfen. Der Empfangende Mailserver erhält die E-Mail und überprüft, ob die Domain eine DKIM-Signatur besitzt. Ist dies der Fall,  wird der öffentlichen Schlüssel der Absenderdomain aus dem DNS abgerufen. Der empfangende Mailserver verwendet den öffentlichen Schlüssel, um die DKIM-Signatur zu überprüfen. Dabei wird überprüft, ob die Signatur mit dem Inhalt der E-Mail übereinstimmt und ob sie vom korrekten Absender stammt. Wenn die Signatur erfolgreich überprüft wird, wird die E-Mail als authentisch eingestuft.
+ \subsubsection{Domain-based Message Authentication, Reporting, and Conformance - DMARC}
+ Hierbei handelt es sich um ein weiteren Standard zur E-Mail-Authentifizierung, der SPF und DKIM ergänzt. DMARC ermöglicht es Domaininhabern, Richtlinien festzulegen, wie E-Mails, die nicht den SPF- oder DKIM-Überprüfungen entsprechen, behandelt werden sollen. In der DMARC-Richtlinie kann der Domaininhaber festlegen, wie der empfangende Mailserver mit E-Mails umgehen soll, die nicht den SPF- oder DKIM-Überprüfungen entsprechen. Hierbei stehen verschiedene Optionen zur Verfügung, wie z. B. Ablehnen, Quarantäne oder Überwachen. Wenn der empfangende Mailserver eine E-Mail erhält, die eine DMARC-Richtlinie hat, überprüft er sowohl die SPF- als auch die DKIM-Überprüfung. Der empfangende Mailserver sendet Berichte über die DMARC-Ergebnisse an den Domaininhaber. Diese Berichte enthalten Informationen über die Anzahl der E-Mails, die die SPF- und DKIM-Überprüfungen bestanden oder nicht bestanden haben. Figure 4 zeigt ein DMARC System.
+ \begin{figure}[h]
+  \caption{DMARC}
+  \centering \includegraphics[scale=0.5]{dmarc.png}
+ \end{figure}
+\newpage
+\subsection{Isolierung von Technischen Komponenten}
+Eine weitere Möglichkeit das Soziotechnische System Phishing zu behindern, besteht darin technische Komponenten des Nutzers zu isolieren. Durch die Isolation von Anwendungen wie Browser oder Mail Clients wird sichergestellt, dass diese Anwendungen in einer abgeschotteten Umgebung laufen und keinen unbefugten Zugriff auf andere Anwendungen oder sensible Daten haben. Wird die Anwendung dennoch Kompromotiert, sind durch die Isolierung die restlichen Komponenten geschützt. Dies kann auch als Sandboxing bezeichnet werden. Es gibt verschiedene Ansätze zur Isolierung von Anwendungen, wie zum Beispiel Virtuelle Maschienen. Diese sind jedoch schwergewichtig und umständlich einzurichten. Eine elegantere Lösung bietet Container. Mit diesen wird nachfolgend eine Isolierung einer Anwendung durchgeführt. 
+\subsubsection{Implementierung einer Anwendungsisolation}
+Hierbei wird anhand einer Containerengine wie Docker, die Browseranwendung Firefox isoliert.
+Container sind eine leichtgewichtige Art von Virtualisierung auf Betriebssystemebene. Dies kann genutzt werden um eine Anwendung mitsamt ihren Abhängigkeiten als eine abgeschlossene Einheit zu verpacken und zu betrieben.
+Dies bietet Vorteile wie Plattformunabhängigkeit und einfache Ausfürbarkeit.
+Das Packet aus Anwendung und Abhängigkeiten nennt man auch Container-
+Image. Dies kann anhand des Dockerfiles erzeugt werden. Das Dockerfile
+enthält alle Instruktionen die zur Erstellung des Images benötigt werden.
+\begin{figure}[h]
+\caption{Dockerfile }
+\begin{shaded}
+\begin{internallinenumbers}
+FROM ubuntu:14.04
+
+RUN apt-get update \&\& apt-get install -y firefox
+
+RUN export uid=1000 gid=1000 \&\& \
+
+mkdir -p /home/developer \&\& \
+
+echo "developerx\${uid}:\${gid}:Developer,,,:/home/developer:/bin/bash" >> /etc/passwd \&\& \
+
+echo "developerx\${uid}:" >> /etc/group \&\& \
+
+echo "developer ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/developer \&\& \
+
+chmod 0440 /etc/sudoers.d/developer \&\& \
+
+chown \${uid}:\${gid} -R /home/developer
+
+USER developer
+
+ENV HOME /home/developer
+
+CMD /usr/bin/firefox
+
+ \end{internallinenumbers}
+\end{shaded}
+\end{figure}
+
+Ein Container wird stets auf einem Base Image aufgebaut. Dieses dient als
+Fundament für alle folge Instruktionen und enthält je nach Image ein grundlegendes Dateisystem sowie vorinstallierte Software.
+In Zeile 1(vgl. Figure 5) wird als Base Image Ubuntu deklariert. Anschließend werden Dienste aktualisiert sowie die Anwendung firefox installiert. Zeile 4-9 dienen der Erstellung eines Benutzers "developer" innerhalb des Containers mit der UID (Benutzer-ID) 1000 und der GID (Gruppen-ID) 1000. Es wird ein Verzeichnis "/home/developer" erstellt und die Berechtigungen und Eigentümerschaft werden entsprechend gesetzt. In Zeile 12 wird festgelegt das beim Start des Containers der Befehl "/usr/bin/firefox" ausgeführt wird, was dazu führt, dass der Firefox-Browser gestartet wird. Mit \colorbox{mshadecolor}{\parbox{0.38\textwidth}{Docker build -t firefox-isolierung .}} wird aus dem Dockerfile ein Image erstellt.
+\section{Soziotechechnische Lösungen} 
+\section{Fazit und Ausblick}
 \bibliographystyle{alpha}
 \bibliography{ref.bib}
 \end{document}
