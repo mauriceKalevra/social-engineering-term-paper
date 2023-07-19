@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.5.23)  10 JUL 2023 22:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.5.23)  15 JUL 2023 18:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1088,13 +1088,13 @@ Package rerunfilecheck Info: File `template.out' has not changed.
  )
 (\end occurred when \iftrue on line 53 was incomplete) 
 Here is how much of TeX's memory you used:
- 24318 strings out of 479304
- 444330 string characters out of 5869779
- 824247 words of memory out of 5000000
+ 24320 strings out of 479304
+ 444358 string characters out of 5869779
+ 825168 words of memory out of 5000000
  40802 multiletter control sequences out of 15000+600000
- 485668 words of font info for 162 fonts, out of 8000000 for 9000
+ 485769 words of font info for 163 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 96i,14n,102p,1736b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 96i,14n,102p,1742b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/e
 nc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/sha
 re/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/
@@ -1102,7 +1102,7 @@ lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.
 pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/font
 s/type1/public/lm/lmtt9.pfb>
-Output written on template.pdf (11 pages, 308546 bytes).
+Output written on template.pdf (11 pages, 309853 bytes).
 PDF statistics:
  187 PDF objects out of 1000 (max. 8388607)
  153 compressed objects within 2 object streams
